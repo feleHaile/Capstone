@@ -1,0 +1,14 @@
+# Capstone-project
+This is the repositore for the Applied Data Science Capstone
+
+
+Welcome to the Capstone-project wiki!
+
+Introduction
+When visiting an unknown city one of the things we rely on are reviews of previous visitors. A customer will decide for one or another venue based on its reviews. Therefore reviewed venues get more customers or visits. A type of job that has been developing as the reviewing or customer feedback develops on the internet is professional reviewer or internet critic. If one has enough influence one can earn a life by performing reviews of different places and submitting not only rates but detailed reviews with photos and impressions.
+
+Business problem
+To this date, there is no tool that could allow a profesional reviewer to know which places have a high density of unreviewed venues. This is of high importance as for a professional reviewer it is not the same to review a place that has already been reviewed thousand times compared to discovering a gem or special place that has not yet been reviewed. By discovering “ new places”, a reviewer will have more impact in the community. This project aims to develop a tool that would help professional reviewers. The goal of this project is to develop a pipeline that would allow a professional reviewer that wants to go to a specific city, to find neighborhoods with a high density or abundance or venues of the kind he wishes to rate ( restaurants, fitness studios, coffee shops, hotels...) that have not yet being rated. Ideally this pipeline could be applied to any city and any type of venue.
+
+Data section
+To develop our project we will be using the venue data from Foursquare. No external database will be used for now but in the future information from other websites such as yelp and tripadvisor could be use to complement the Foursquare database. In addition to the Foursquare dataset, information about the different neighborhoods and their locations will be use to help us classify the different neighborhoods. For a specific city, unreviewed venues will be selected. For example, in the city of New York. Venues that have not been reviewed will be clustered based on their location and their type. After such a clustering, a reviewer that specializes in coffee venues will be able to know what is the neighborhood with the highest concentration of coffee venues and as well the neighborhood with the highest number of unreviewed coffee places. This will be complemented with a clustering analysis of reviewed venues to see if neighborhoods with a high density of unreviewed coffee venues have as well a high density of reviewed coffee venues. This information could help the professional reviewer to for example extrapolate that a specific neighborhood with a high density of reviewed coffee venues is simply saturated and that is the reason why there are so many non reviewed coffee venues.
